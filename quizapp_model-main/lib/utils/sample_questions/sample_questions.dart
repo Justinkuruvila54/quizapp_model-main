@@ -1,46 +1,31 @@
 class Questiondb {
   // void main() {
   static List<Map<String, dynamic>> literaturequestion = [
-    {
-      "question": "Who wrote the poem 'The Road Not Taken'?",
-      "options": [
-        "Robert Frost",
-        "Emily Dickinson",
-        "Langston Hughes",
-        "Walt Whitman"
-      ],
-      "answer": 0
+      {
+      "question": "Who wrote the play 'Hamlet'?",
+      "options": ["William Shakespeare", "Jane Austen", "Charles Dickens", "Mark Twain"],
+      "answer": 0,
     },
     {
-      "question": "What is the poetic form with fourteen lines?",
-      "options": ["Haiku", "Sonnet", "Limerick", "Elegy"],
-      "answer": 1
+      "question": "In which novel does the character Sherlock Holmes appear?",
+      "options": ["Pride and Prejudice", "The Hound of the Baskervilles", "Wuthering Heights", "Moby-Dick"],
+      "answer": 1,
     },
     {
-      "question": "Which poet wrote 'Howl'?",
-      "options": [
-        "Allen Ginsberg",
-        "Sylvia Plath",
-        "T.S. Eliot",
-        "E.E. Cummings"
-      ],
-      "answer": 0
+      "question": "Who is the author of 'The Catcher in the Rye'?",
+      "options": ["J.D. Salinger", "F. Scott Fitzgerald", "Ernest Hemingway", "George Orwell"],
+      "answer": 0,
     },
     {
-      "question": "What is the term for a poem expressing mourning?",
-      "options": ["Ode", "Elegy", "Ballad", "Sonnet"],
-      "answer": 1
+      "question": "Which novel is set in the dystopian society of Airstrip One?",
+      "options": ["1984", "Brave New World", "Fahrenheit 451", "The Hunger Games"],
+      "answer": 0,
     },
     {
-      "question": "Who wrote the poem 'The Raven'?",
-      "options": [
-        "Edgar Allan Poe",
-        "William Wordsworth",
-        "Emily Dickinson",
-        "John Keats"
-      ],
-      "answer": 0
-    }
+      "question": "Who wrote the poem 'To Autumn'?",
+      "options": ["John Keats", "Emily Dickinson", "Robert Frost", "Walt Whitman"],
+      "answer": 0,
+    },
   ];
 
   static List<Map> sportsquestion = [
