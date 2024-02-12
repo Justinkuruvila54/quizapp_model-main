@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "quizapp_model-main",
+            "cwd": "quizapp_model-main",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "quizapp_model-main (profile mode)",
+            "cwd": "quizapp_model-main",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "quizapp_model-main (release mode)",
+            "cwd": "quizapp_model-main",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
